@@ -3,11 +3,9 @@ import Hero from "@/components/sections/hero"
 import LargeVideo from "@/components/sections/large-video"
 import FeatureColumnsGroup from "@/components/sections/feature-columns-group"
 import FeatureRowsGroup from "@/components/sections/feature-rows-group"
-import BottomActions from "@/components/sections/bottom-actions"
 import TestimonialsGroup from "@/components/sections/testimonials-group"
 import RichText from "./sections/rich-text"
 import Pricing from "./sections/pricing"
-//import LeadForm from "./sections/lead-form"
 import { useCookies } from "react-cookie"
 import { navigate } from "gatsby-link"
 import { useLocation } from "@reach/router"
@@ -18,7 +16,6 @@ const sectionComponents = {
   Strapi_ComponentSectionsLargeVideo: LargeVideo,
   Strapi_ComponentSectionsFeatureColumnsGroup: FeatureColumnsGroup,
   Strapi_ComponentSectionsFeatureRowsGroup: FeatureRowsGroup,
-  Strapi_ComponentSectionsBottomActions: BottomActions,
   Strapi_ComponentSectionsTestimonialsGroup: TestimonialsGroup,
   Strapi_ComponentSectionsRichText: RichText,
   Strapi_ComponentSectionsPricing: Pricing,
@@ -29,7 +26,6 @@ const previewComponents = {
   "sections.large-video": LargeVideo,
   "sections.feature-columns-group": FeatureColumnsGroup,
   "sections.feature-rows-group": FeatureRowsGroup,
-  "sections.bottom-actions": BottomActions,
   "sections.testimonials-group": TestimonialsGroup,
   "sections.rich-text": RichText,
   "sections.pricing": Pricing,

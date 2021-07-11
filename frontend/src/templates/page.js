@@ -119,18 +119,6 @@ export const query = graphql`
           locale
         }
         contentSections {
-          ... on Strapi_ComponentSectionsBottomActions {
-            __typename
-            id
-            title
-            buttons {
-              id
-              newTab
-              text
-              type
-              url
-            }
-          }
           ... on Strapi_ComponentSectionsHero {
             __typename
             id
@@ -291,18 +279,6 @@ export const query = graphql`
               price
               pricePeriod
             }
-          }
-          ... on Strapi_ComponentSectionsLeadForm {
-            __typename
-            id
-            emailPlaceholder
-            location
-            submitButton {
-              id
-              text
-              type
-            }
-            title
           }
         }
       }
