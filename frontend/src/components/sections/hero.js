@@ -6,7 +6,7 @@ import { getButtonAppearance } from "@/utils/button"
 
 const Hero = ({ data }) => {
   return (
-    <main className="container flex flex-col md:flex-row items-center justify-between py-12">
+    <main className="container bg-red-100 flex flex-col md:flex-row items-center justify-between py-12">
       {/* Left column for content */}
       <div className="flex-1 sm:pr-8">
         {/* Hero section label */}

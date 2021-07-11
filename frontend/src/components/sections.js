@@ -93,7 +93,7 @@ const Sections = ({ sections,  }) => {
   }, [location, removeCookie])
   
   return (
-    <div className="flex flex-col">
+    <div className="bg-gray-200 flex flex-col">
       {process.env.GATSBY_PREVIEW_SECRET &&
         cookies.strapiPreview === process.env.GATSBY_PREVIEW_SECRET && (
           <PreviewModeBanner location={location} />
