@@ -7,7 +7,7 @@ import BottomActions from "@/components/sections/bottom-actions"
 import TestimonialsGroup from "@/components/sections/testimonials-group"
 import RichText from "./sections/rich-text"
 import Pricing from "./sections/pricing"
-import LeadForm from "./sections/lead-form"
+//import LeadForm from "./sections/lead-form"
 import { useCookies } from "react-cookie"
 import { navigate } from "gatsby-link"
 import { useLocation } from "@reach/router"
@@ -22,7 +22,6 @@ const sectionComponents = {
   Strapi_ComponentSectionsTestimonialsGroup: TestimonialsGroup,
   Strapi_ComponentSectionsRichText: RichText,
   Strapi_ComponentSectionsPricing: Pricing,
-  Strapi_ComponentSectionsLeadForm: LeadForm,
 }
 
 const previewComponents = {
@@ -34,7 +33,6 @@ const previewComponents = {
   "sections.testimonials-group": TestimonialsGroup,
   "sections.rich-text": RichText,
   "sections.pricing": Pricing,
-  "sections.lead-form": LeadForm,
 }
 
 const PreviewModeBanner = ({ location }) => {

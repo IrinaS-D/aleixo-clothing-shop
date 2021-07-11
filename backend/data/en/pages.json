@@ -122,17 +122,6 @@
           ]
         },
         {
-          "__component": "sections.lead-form",
-          "title": "Subscribe To Our Newsletter",
-          "emailPlaceholder": "email@company.com",
-          "submitButton": {
-            "__component": "links.button",
-            "text": "Subscribe",
-            "type": "primary"
-          },
-          "location": "Home Page Bottom"
-        },
-        {
           "__component": "sections.bottom-actions",
           "title": "Start building your website",
           "buttons": [

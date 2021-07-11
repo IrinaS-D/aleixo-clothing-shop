@@ -45,8 +45,7 @@
         "sections.testimonials-group",
         "sections.large-video",
         "sections.rich-text",
-        "sections.pricing",
-        "sections.lead-form"
+        "sections.pricing"
       ],
       "pluginOptions": {
         "i18n": {
