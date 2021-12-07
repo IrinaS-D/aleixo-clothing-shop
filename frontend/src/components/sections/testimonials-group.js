@@ -8,6 +8,8 @@ const TestimonialsGroup = ({ data }) => {
   // Only show one testimonial at a time
   const [selectedTestimonialIndex, setSelectedTestimonialIndex] = useState(0)
   const selectedTestimonial = data.testimonials[selectedTestimonialIndex]
+  //console.log(data.testimonials);
+  
   return (
     <section className="text-center text-lg bg-gray-200 pt-12 pb-16">
       <h2 className="title mb-4">{data.title}</h2>
